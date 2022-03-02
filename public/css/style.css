@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* Header */
+
+#head{
+    background-color: rgb(31, 163, 207);
+    height: 3.7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#logoImg{
+    height: 3rem;
+    margin: 0rem 3rem;
+}
+
+#menuDiv ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 0rem 1rem;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: aliceblue;
+    padding: 0.4rem 1rem;
+    border-radius: 18px;
+}
+
+ul li a:hover{
+    background-color: orange ;
+}  
+
+
+
+/* Footer  */
+#foot{
+    background-color: rgb(31, 163, 207);
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot p{
+    font-size: 1.2rem;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Content */
+
+.main-content{
+    flex-grow: 1;
+}
+
+#pageTitle{
+    display: flex;
+    /* background-color: yellowgreen; */
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#forecast{
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#forecastImg{
+    border: 2px solid black;
+    height: 21rem;
+    width: 17rem;
+}
+
+#forecastData{
+    height: 21rem;
+    width: 47rem;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+#formInp{
+    width: 20%;
+    height: 2rem;
+    margin: 0rem 1rem;
+    border: 1px solid black;
+    padding: 0rem 0.5rem;
+}
+
+#formBtn{
+    height: 2rem;
+    width: 5%;
+    border: 1px solid black;
+}
+
+#formBtn:hover{
+    background-color: #888888;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #888888;
+}
